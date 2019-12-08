@@ -1,3 +1,4 @@
+'use strict'
 window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.menu'),
     menuItem = document.querySelectorAll('.menu_item'),
@@ -14,4 +15,5 @@ window.addEventListener('DOMContentLoaded', () => {
             menu.classList.toggle('menu_active');
         })
     })
-})
+});
+alert("Этот сайт предназначен для группы 954!");
